@@ -6,6 +6,6 @@ console.log(document.body);
 // btnというidを持つHTML要素を取得し、定数に代入する
 const btn = document.getElementById('btn');
  
-window.getElementById("btn").onclick = function() {
-  window.getElementById("text").innerHTML = "ボタンをクリックしました";
+document.getElementById("btn").onclick = function() {
+  document.getElementById("text").innerHTML = "ボタンをクリックしました";
 };
